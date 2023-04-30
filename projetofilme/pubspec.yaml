@@ -59,7 +59,7 @@ flutter:
   uses-material-design: true
 
 assets:
- - assets/images/vibezz_109638182.png
+ - assets/images/guardioes.png
     
 
    #https://flutter.dev/assets-and-images/#resolution-aware
