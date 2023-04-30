@@ -26,8 +26,16 @@ class Inicial extends StatelessWidget {
                       children:  [
                         Image.asset('assets/images/guardioes.png'),                       
                          const Text(
-                          "livrooo",
-                          style: TextStyle(color: Colors.black),
+                          "GUARDIÕES DA GALÁXIA 3",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 28,
+                            fontFamily: "Cinematic Language", 
+
+
+                          ),
+                          
+                          
                         ),
                       ],
                     ),

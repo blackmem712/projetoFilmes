@@ -22,6 +22,8 @@ class Sinopse extends StatelessWidget {
                          const Text(
                           "livrooo",
                           style: TextStyle(color: Colors.black),
+                          
+
                         ),
                       ],
                     ),
