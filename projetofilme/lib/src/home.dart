@@ -30,7 +30,7 @@ class Inicial extends StatelessWidget {
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 28,
-                            fontFamily: "Cinematic Language", 
+                            fontFamily: "Cinematic Language Regular", 
 
 
                           ),
