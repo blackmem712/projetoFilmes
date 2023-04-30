@@ -12,7 +12,7 @@ class Especifica extends StatelessWidget {
         length: 3,
         child: Scaffold(
           appBar: AppBar(
-            title: const Text('Fixed Tabs'),
+            title: const Text('FILMES'),
             automaticallyImplyLeading: false,
             backgroundColor: const Color(0xff5808e5),
             bottom: const TabBar(

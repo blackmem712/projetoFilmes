@@ -7,7 +7,8 @@ class Inicial extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: const Text("inicial"),
+            title: const Text("FILMES"),
+             backgroundColor: const Color(0xff5808e5),
           ),
           body: GridView.count(
             scrollDirection: Axis.vertical,
@@ -24,7 +25,7 @@ class Inicial extends StatelessWidget {
                     margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
                     child: Column(
                       children:  [
-                        Image.asset('assets/images/guardioes.png'),                       
+                        Image.asset("assets/images/guardioes.png"),                       
                          const Text(
                           "GUARDIÕES DA GALÁXIA 3",
                           style: TextStyle(
