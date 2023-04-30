@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projetofilme/src/home.dart';
+import 'package:projetofilme/src/sinopse.dart';
 
 class Especifica extends StatelessWidget {
   const Especifica({super.key});
@@ -25,8 +25,8 @@ class Especifica extends StatelessWidget {
           ),
           body: const TabBarView(
             children: [
-              Inicial(),
-              Center(child: Text('filme sinopse')),
+              
+              Sinopse(),
               Center(child: Text('critica')),
               
             ],
