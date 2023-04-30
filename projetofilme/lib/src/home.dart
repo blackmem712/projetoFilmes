@@ -25,7 +25,7 @@ class Inicial extends StatelessWidget {
                     child: Column(
                       children: const [
                         Image(
-                          image: AssetImage(''),
+                          image: AssetImage('vibezz_109638182.jpg'),
                         ),
                         Text(
                           "livrooo",
