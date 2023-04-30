@@ -24,7 +24,7 @@ class Especifica extends StatelessWidget {
           ),
           body: const TabBarView(
             children: [
-              Center(child: Text('filme resenha')),
+              Center(child: Text('filme sinopse')),
               Center(child: Text('critica')),
               
             ],
