@@ -23,11 +23,9 @@ class Inicial extends StatelessWidget {
                   child: Container(
                     margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
                     child: Column(
-                      children: const [
-                        Image(
-                          image: AssetImage('guardioes.png'),
-                        ),
-                        Text(
+                      children:  [
+                        Image.asset('assets/images/guardioes.png'),                       
+                         const Text(
                           "livrooo",
                           style: TextStyle(color: Colors.black),
                         ),
