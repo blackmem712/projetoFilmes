@@ -6,7 +6,7 @@ class Sinopse extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Minha Tela Rolável',
+      title: 'sinopse',
       home: Scaffold(
        
         body: SingleChildScrollView(
