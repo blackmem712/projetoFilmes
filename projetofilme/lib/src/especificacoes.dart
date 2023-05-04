@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projetofilme/src/informacoes.dart';
 import 'package:projetofilme/src/sinopse.dart';
 
 class Especifica extends StatelessWidget {
@@ -18,17 +19,16 @@ class Especifica extends StatelessWidget {
             bottom: const TabBar(
               indicatorColor: Colors.white,
               tabs: [
-                Tab(text: 'filme resenha', icon: Icon(Icons.favorite)),
-                Tab(text: 'critica', icon: Icon(Icons.search)),
+                Tab(text: 'filme ', icon: Icon(Icons.favorite)),
+                Tab(text: 'informações', icon: Icon(Icons.search)),
               ],
             ),
           ),
           body: const TabBarView(
-            children: [
-              
+            children: [  
+              Informa(),
               Sinopse(),
-              Center(child: Text('critica')),
-              
+            
             ],
           ),
         ),

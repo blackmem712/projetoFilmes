@@ -10,13 +10,8 @@ class Inicial extends StatelessWidget {
             title: const Text("FILMES"),
              backgroundColor: const Color(0xff5808e5),
           ),
-          body: GridView.count(
-            scrollDirection: Axis.vertical,
-            crossAxisCount: 2,
-            padding: const EdgeInsets.only(top: 10.0),
-            mainAxisSpacing: 16.0,
-            childAspectRatio: 0.64,
-            children: [
+          body: SingleChildScrollView(
+            child: 
               TextButton(
                   onPressed: () {
                     Navigator.pushNamed(context, '/especificacoes');
@@ -24,25 +19,27 @@ class Inicial extends StatelessWidget {
                   child: Container(
                     margin: const EdgeInsets.fromLTRB(10, 10, 10, 20),
                     child: Column(
-                      children:  [
-                        Image.asset("assets/images/guardioes.png"),                       
+                      children:[
+                        Image.asset("assets/images/guardioes.png",
+                        width: 800,
+                        height: 600,                        
+                        ),
+
                          const Text(
                           "GUARDIÕES DA GALÁXIA 3",
                           style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 28,
+                            color: Color(0xff5808e5),
+                            fontSize: 20,
                             fontFamily: "Cinematic Language Regular", 
-
-
                           ),
-                          
-                          
                         ),
                       ],
                     ),
-                  ))
-            ],
-          )),
+                  ),
+                  ),
+            
+          ),
+          ),
     );
   }
 }
